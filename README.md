@@ -8,7 +8,7 @@ echo "Enter a folder name:"
 read folderName
 
 mkdir "$folderName"
-cd "$folderName" || exit
+cd "$folderName" 
 
 echo "Open-Source Technologies." > readme.txt
 echo "Hello, $name! Your folder '$folderName' has been successfully created!"
